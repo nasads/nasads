@@ -3,6 +3,25 @@ html, body, #root {
   height: 100%;
 }
 
-.hello{
-  color: #f00;
+.page-ads{
+  width: 500px;
+  margin: 20px auto;
+}
+.hd{
+  text-align: center;
+}
+.logo{
+  width: 107px;
+}
+.page-title{
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.box-tip{
+  text-align: right;
+  margin-bottom: 20px;
+}
+.alert-wallet{
+  margin-bottom: 20px;
 }

@@ -4,6 +4,7 @@ import { LocaleProvider, message, Input, Button, Form, List, Tooltip, Alert } fr
 // 由于 antd 组件的默认文案是英文，所以需要修改为中文
 import zhCN from 'antd/lib/locale-provider/zh_CN';
 import moment from 'moment';
+import Particles from 'particlesjs';
 import 'moment/locale/zh-cn';
 import './index.css';
 
@@ -22,6 +23,12 @@ const dappAddress = "n1p7913Ek35TDNxeJgG9EGVfbu8y5KXyQeE";
 const Account = nebulas.Account;
 const neb = new nebulas.Neb();
 neb.setRequest(new nebulas.HttpRequest("https://mainnet.nebulas.io"));
+
+Particles.init({
+  selector: '.background',
+  color: ['#1890ff', '#404B69', '#DBEDF3'],
+  connectParticles: true
+});
 
 class App extends React.Component {
   constructor(props) {
@@ -202,6 +209,7 @@ class App extends React.Component {
           }
 
           <List
+            className="ad-list"
             loading={loading}
             bordered
             locale={{ emptyText: '暂无广告' }}

@@ -25,3 +25,20 @@ html, body, #root {
 .alert-wallet{
   margin-bottom: 20px;
 }
+.ad-list{
+  background: #fff;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}

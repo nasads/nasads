@@ -2,7 +2,7 @@
 
 <img src="img/logo.png" width="107px" />
 
-基于<a href="https://nebulas.io/">星云链</a>实现的<a href="https://nasads.github.io/">广告榜</a>，只要一点点 gas 费用就可以发布广告哦。>><a href="https://nasads.github.io/">马上体验</a>
+基于<a href="https://nebulas.io/">星云链</a>实现的<a href="https://nasads.github.io/">广告榜</a>，只要一点点 gas 费用就可以发布广告哦。<a href="https://nasads.github.io/">>>>马上体验</a>
 
 # 开发调试
 

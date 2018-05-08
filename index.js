@@ -18,10 +18,10 @@ const formTailLayout = {
   wrapperCol: { span: 8, offset: 4 },
 };
 
-const dappAddress = "n1m8nJu6nwQUNYW9ke6rrqAbCLPg8xU9Yqr";
+const dappAddress = "n1p7913Ek35TDNxeJgG9EGVfbu8y5KXyQeE";
 const Account = nebulas.Account;
 const neb = new nebulas.Neb();
-neb.setRequest(new nebulas.HttpRequest("https://testnet.nebulas.io"));
+neb.setRequest(new nebulas.HttpRequest("https://mainnet.nebulas.io"));
 
 class App extends React.Component {
   constructor(props) {
